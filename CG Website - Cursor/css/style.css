@@ -1,0 +1,71 @@
+/* --- Existing styles above --- */
+
+/* Tabbed form section styles */
+.tab-content {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-top: -1px;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #007073;
+  color: #fff !important;
+  border-color: #007073 #007073 #fff;
+}
+
+.nav-tabs .nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #007073;
+}
+
+/* Optional: Make tabbed form container look like a card */
+.tabbed-form-card {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 2rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Ensure banner-green is styled correctly and overrides any conflicts */
+.banner-green {
+    background-color: #007073 !important;
+    color: #fff !important;
+    padding: 2rem 0 !important;
+    min-height: 150px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+.banner-green h1, .banner-green h2, .banner-green h3 {
+    color: #fff !important;
+    font-family: 'Lora', serif;
+    margin: 0;
+    text-align: left;
+}
+.banner-green .container {
+    text-align: left;
+}
+
+/* Remove sticky positioning from the white navbar/header to prevent overlap */
+.banner-white {
+    position: static !important;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1;
+}
+
+.logo {
+    max-height: 80px;
+    width: auto;
+}
+
+.city-orange {
+    color: #c05818 !important;
+}
+
+.banner-white .logo {
+    height: 80px;
+    width: auto;
+} 
